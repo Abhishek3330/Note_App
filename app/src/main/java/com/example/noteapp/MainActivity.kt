@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.util.Log
 import com.example.noteapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -24,6 +25,8 @@ class MainActivity : AppCompatActivity() {
         // Abhishek Singh
 
         // Hello world
+
+        Log.d("On Create","OnCreate")
 
     }
 }
